@@ -1,0 +1,23 @@
+.parallaxEffect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+  transform-style: preserve-3d;
+
+  .innerElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.cardVerso {
+  transform: rotateY(180deg);
+  width: 448px;
+  height: 676px;
+  border-radius: 10px;
+}
