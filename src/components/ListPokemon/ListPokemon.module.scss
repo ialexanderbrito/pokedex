@@ -1,0 +1,79 @@
+.cardPokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 18px;
+  height: 115px;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+
+  p {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 12px;
+    z-index: 1;
+  }
+}
+
+.cardPokemon:hover {
+  filter: brightness(90%);
+  transition: all 0.5s;
+  border-radius: 16px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  color: #000;
+
+  font-size: 14px;
+  margin-top: 6px;
+  margin-left: 32px;
+  z-index: 1;
+}
+
+.id {
+  display: flex;
+  color: rgb(0, 0, 0);
+  z-index: 0;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.idText {
+  background: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ffffff88;
+}
+
+.imagePokemon {
+  width: 135px;
+  height: 140px;
+  filter: grayscale(100%);
+  transition: all 0.4s ease 0s;
+  position: absolute;
+  align-self: end;
+}
+
+.imagePokemon:hover {
+  transition: 0.6s;
+  filter: grayscale(0%);
+  margin-top: -10px;
+}
