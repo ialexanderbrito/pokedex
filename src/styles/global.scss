@@ -5,14 +5,26 @@
   --text-primary: #6b46c1;
   --text-secondary: #2b3442;
   --button-save: #6b46c1;
-}
-
-[data-theme="dark"] {
-  --background: #0d1232;
-  --background-content: #0e163a;
-  --text-primary: #fff;
-  --text-secondary: #fff;
-  --button-save: #6b46c1;
+  --bug: #befc1444;
+  --water: #01beff44;
+  --grass: #09ee4f44;
+  --fire: #ff8e0144;
+  --normal: #dcdbc444;
+  --poison: #c901e644;
+  --electric: #fdf80044;
+  --ground: #e3a01044;
+  --fairy: #ff8ad144;
+  --fighting: #d10d1c44;
+  --psychic: #ff3ca044;
+  --ghost: #7441c244;
+  --rock: #93623a44;
+  --ice: #8afff944;
+  --flying: #b2dfff44;
+  --dark: #01276544;
+  --dragon: #3813f644;
+  --steel: #7ca8b844;
+  --unknown: #dcdbc444;
+  --undefined: #dcdbc444;
 }
 
 * {
@@ -63,4 +75,73 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #bbbbbb;
+}
+
+.bug {
+  background: #befc14;
+}
+.water {
+  background: #01beff;
+}
+.grass {
+  background: #09ee4f;
+}
+.fire {
+  background: #ff8e01;
+}
+.normal {
+  background: #dcdbc4;
+}
+.poison {
+  background: #c901e6;
+  color: #fff;
+}
+.electric {
+  background: #fdf800;
+}
+.ground {
+  background: #e3a010;
+}
+.fairy {
+  background: #ff8ad1;
+}
+.fighting {
+  background: #d10d1c;
+}
+.psychic {
+  background: #ff3ca0;
+}
+.ghost {
+  background: #7441c2;
+  color: #fff;
+}
+.rock {
+  background: #93623a;
+}
+.ice {
+  background: #8afff9;
+}
+.flying {
+  background: #b2dfff;
+}
+.dark {
+  background: #012765;
+  color: #fff;
+}
+
+.dragon {
+  background: #3813f6;
+}
+
+.steel {
+  background: #7ca8b8;
+}
+.unknown,
+.undefined {
+  background: #dcdbc4;
+  color: #000;
+}
+
+.shadow {
+  background: #4f4f4f;
 }
