@@ -5,7 +5,7 @@ type IToastProps = {
   toast: any;
 };
 
-const ToastContext = createContext<IToastProps>({} as any);
+const ToastContext = createContext<IToastProps>({} as IToastProps);
 
 export const ToastProvider = ({ children }: any) => (
   <ToastContext.Provider value={{ toast }}>
