@@ -1,4 +1,5 @@
 import { Button } from 'components/Button';
+import { FloatingButton } from 'components/FloatingButton';
 import { ListPokemon } from 'components/ListPokemon';
 
 import { useHome } from 'hooks/useHome';
@@ -38,6 +39,7 @@ export function Homepage() {
               </div>
             </div>
           </div>
+          <FloatingButton />
         </>
       )}
     </>

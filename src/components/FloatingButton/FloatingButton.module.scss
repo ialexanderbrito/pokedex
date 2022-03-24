@@ -1,0 +1,26 @@
+.floatingButton {
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1001;
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+  background: #fff;
+  position: fixed;
+  text-align: center;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 400ms;
+  box-shadow: 0 0 4px rgb(0 0 0 / 14%), 0 4px 8px rgb(0 0 0 / 28%);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &:hover {
+    transform: scale(1.06);
+  }
+}
+
+.floatingButtonNone {
+  display: none;
+}
