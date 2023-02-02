@@ -68,7 +68,7 @@ export function CardPokemon(props: IProps) {
                     <h2 className={styles.idText}>#{formatId(pokemon.id)}</h2>
                   </div>
                   <img
-                    src={pokemon.sprites.other.dream_world.front_default || pokemon?.sprites?.front_default}
+                    src={pokemon.sprites.other.home.front_default || pokemon?.sprites?.front_default}
                     alt={pokemon.name}
                   />
                 </div>

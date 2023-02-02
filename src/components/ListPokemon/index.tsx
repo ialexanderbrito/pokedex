@@ -29,7 +29,7 @@ export function ListPokemon(props: { pokemon: PokemonObject }) {
       <div className={styles.id}>
         <h2 className={styles.idText}>#{formatId(id)}</h2>
       </div>
-      <img src={other?.dream_world?.front_default || front_default} alt={name} className={styles.imagePokemon} />
+      <img src={other?.home?.front_default || front_default} alt={name} className={styles.imagePokemon} />
 
       {types.map((type: Type) => (
         <span key={type.slot} className={`${styles.badge}`}>
